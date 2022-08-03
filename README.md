@@ -16,18 +16,19 @@ python main.py --config_path=configs/cifar10_resnet18.yaml --save_dir=.
 ```
 
 # Results
+We proivde results using interactive plots made with (Chart Studio)[chart-studio.plotly.com] for convenience. Each configuration has been run for 3 different seeds and the reported results are average of those runs.
 
 | **Dataset** | **Model**      | **Learning Rates**                   | **Plot**                                                   |
 |-------------|----------------|--------------------------------------|------------------------------------------------------------|
-| CIFAR10     | ResNet18       | .1, .2, .25, .3, .35, .4. .5, 1., 2. | https://chart-studio.plotly.com/~anonymous.ml.enjoyer/1/#/ |
+| CIFAR10     | ResNet18       | .1, .2, .25, .3, .35, .4. .5, 1., 2. | https://chart-studio.plotly.com/~anonymous.ml.enjoyer/1/ |
 | CIFAR10     | WideResNet 1BL | .1, .2, .3, .5, 1., 2.               | https://chart-studio.plotly.com/~anonymous.ml.enjoyer/11/  |
 | SVHN        | ResNet18       | .1, .2, .3, .5, 1., 2.               | https://chart-studio.plotly.com/~anonymous.ml.enjoyer/7    |
-| SVHN        | WideResNet 1BL | .1, .2, .3, .5, 1., 2.               | https://chart-studio.plotly.com/~anonymous.ml.enjoyer/9/#/ |
+| SVHN        | WideResNet 1BL | .1, .2, .3, .5, 1., 2.               | https://chart-studio.plotly.com/~anonymous.ml.enjoyer/9/ |
 
 
 # Requirements
- torch >= 1.1.0
-
- numpy >= 1.16.2
-
- tqdm >= 4.31.1
+```
+torch >= 1.1.0
+numpy >= 1.16.2
+tqdm >= 4.31.1
+```
