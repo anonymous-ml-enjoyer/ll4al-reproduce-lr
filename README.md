@@ -1,6 +1,6 @@
 # Learning Loss for Active Learning, with a focus on learning rates!
 Reproducing experimental results of LL4AL [Yoo et al. 2019 CVPR]
-This work is based the [ori ginal reproduce repo](https://github.com/Mephisto405/Learning-Loss-for-Active-Learning).
+This work is based the [original reproduce repo](https://github.com/Mephisto405/Learning-Loss-for-Active-Learning).
 
 # What is changed?
 * We changed the code to enable using config files [like this one](https://github.com/anonymous-ml-enjoyer/ll4al-reproduce-lr/blob/main/configs/cifar10_resnet18.yaml), so that managing different hyperparameters would be easier!
