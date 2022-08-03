@@ -10,7 +10,7 @@ This work is based the [original reproduce repo](https://github.com/Mephisto405/
 
 # Run
 
-To use the code, simply create your own config file, or use one of the provided config files (we assume using (the config indicating CIFAR10 dataset with ResNet18 model)[https://github.com/anonymous-ml-enjoyer/ll4al-reproduce-lr/blob/main/configs/cifar10_resnet18.yaml]), and run:
+To use the code, simply create your own config file, or use one of the provided config files, we assume using [CIFAR10-ResNet18-LR0.1](https://github.com/anonymous-ml-enjoyer/ll4al-reproduce-lr/blob/main/configs/cifar10_resnet18.yaml), and run:
 ```python
 python main.py --config_path=configs/cifar10_resnet18.yaml --save_dir=.
 ```
